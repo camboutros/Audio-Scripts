@@ -1,5 +1,11 @@
-// Authored by Michael Roska and Camellia Boutros //
-
+/* Authored by Michael Roska and Camellia Boutros *
+ * This scripts chooses the SFX pitch (regardless of whether the SFX is a gold bar, gem, or mode-up collect)     *
+ * according to what would sound good with the background music. It does so by analyzing a chord progression     *
+ * chart, uploaded into its GUI in csv format, and restricting the possible range of pitches to what is          *
+ * allowed for that chord. I've added a bit of calculus to get the rate of change and direction of player        *
+ * movement; if the player runs up a flight of stairs, a sequence of successively higher notes will play, yet    *
+ * an element of randomness is kept to avoid repetitiveness.                                                     *
+ 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
