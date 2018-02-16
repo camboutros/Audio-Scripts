@@ -1,4 +1,6 @@
-﻿using System.Collections;
+// Authored by Michael Roska and Camellia Boutros //
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
