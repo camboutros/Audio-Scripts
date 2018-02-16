@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+/* Authored by Michael Roska and Camellia Boutros    *
+ * A high-level manager to coordinate SFX types and  *
+ * pich selection.                                   */
+ 
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Audio;
