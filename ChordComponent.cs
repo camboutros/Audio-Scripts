@@ -4,7 +4,7 @@
  * chart, uploaded into its GUI in csv format, and restricting the possible range of pitches to what is          *
  * allowed for that chord. I've added a bit of calculus to get the rate of change and direction of player        *
  * movement; if the player runs up a flight of stairs, a sequence of successively higher notes will play, yet    *
- * an element of randomness is kept to avoid repetitiveness.                                                     *
+ * an element of randomness is kept to avoid repetitiveness.                                                     */
  
 using System.Collections;
 using System.Collections.Generic;
