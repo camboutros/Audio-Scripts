@@ -1,4 +1,9 @@
-// Authored by Camellia Boutros //
+/* Authored by Camellia Boutros                                                   *
+ * All footstep SFX mentioned were created from one original footstep sound,      *
+ * by adjusting their frequency parameters in Ableton Live.Although I initally    *
+ * played with Unity's built-in functionality to manipulate frequency envelopes   *
+ * in real time, this ended up being more computationally expensive than          *
+ * exporting the sounds beforehand and switching between them with this script    */
 
 using System.Collections;
 using System.Collections.Generic;
